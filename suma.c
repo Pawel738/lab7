@@ -13,6 +13,5 @@ int main()
 	scanf("%d",&b);
 	suma(&sum,a,b);
 	printf("Suma:%d",sum);
-	system("PAUSE");
 }
 
