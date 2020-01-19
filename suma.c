@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 int suma(int *sum, int a, int b)
 {
 	*sum=a+b;
