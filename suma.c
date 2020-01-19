@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 int suma(int *sum, int a, int b)
 {
 	*sum=a+b;
@@ -14,6 +13,6 @@ int main()
 	scanf("%d",&b);
 	suma(&sum,a,b);
 	printf("Suma:%d",sum);
-	getche();
+	system("PAUSE");
 }
 
